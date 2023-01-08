@@ -1,0 +1,22 @@
+1. cd ~/Desktop - переход на рабочий стол
+2. Desktop> mkdir my-project - создает папку my-project на рабочем столе
+3. Desktop> cd my-project - переход в паку my-project
+4. my-project> pwd - показывает путь 
+5. my-project> echo "Some text">file.txt - создает текстовый файл file.txt в папке my-project
+6. my-project> ls - покажет содержимое папки my-project
+7. my-project> cat file.txt - покажет содержимое файла file.txt 
+8. my-project> rm file.txt - удалит файл file.txt
+9. my-project> cd .. - переход на папку выше
+10. my-project> ls -la - покажет скрытые файлы в папке my-project
+
+------------------------------- GIT --------------------------
+1) my-project> git init - инициализация git в данной папке, создается скрытую папку .git
+2) git checkout - команда которая достает старую версия проекта из репозитория и помещает ее в     рабочую директорию
+3) три основные команды git это git add, git commit, git checkout
+4) git status - отображает текущее состояние git репозитория
+5) git add <files> - подготовка файлов перед коммитом 
+6) git commit -m "message" - создание коммиита с записью изменений в репозиторий
+7) git log - просмотр истории изменений(коммитов)
+8) git checkout <commit hash> - переход в определенную версию проекта по SHA1 хешу(можно ввести как полный хеш, так и начало хеша(от четырёх знаков) 
+9) git checkout <branch name> - также можно перейти на другую ветку
+
